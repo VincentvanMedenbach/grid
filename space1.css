@@ -1,35 +1,51 @@
-* {margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-	background-image: url("bg.png");
-	font-family: Tahoma;
+    background-image: url("bg.png");
+    font-family: Tahoma;
 }
 
-.frame{
-	background-color: rgba(0,128,0,0.4);
-	
-	/* put css-rules in this ccs-block here below */
-	
+.frame {
+    background-color: rgba(0, 128, 0, 0.4);
+
+    /* put css-rules in this ccs-block here below */
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 10px;
+    height: 710px;
 }
 
-h1{
-	background-color: rgba(0,32,0,0.4);
-	line-height: 40px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+h1 {
+    background-color: rgba(0, 32, 0, 0.4);
+    line-height: 40px;
+    /* put css-rules in this ccs-block here below */
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
 }
 
 h2 {
-	line-height: 30px;
-	
-	/* put css-rules in this ccs-block here below */
-	
+    line-height: 30px;
+
+    /* put css-rules in this ccs-block here below */
+    border: solid purple;
+    border-width: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 
-p{
-	background-color: rgba(256,256,0,0.4);
-	line-height: 20px;
-	
-	/* put css-rules in this ccs-block here below */
-
+p {
+    background-color: rgba(256, 256, 0, 0.4);
+    line-height: 20px;
+    /* put css-rules in this ccs-block here below */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
